@@ -20,11 +20,65 @@ body{
     font-family: var(--roboto);
 }
 
+.titulo-principal{@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap');
+
+:root{
+    --branco: white;
+    --cor-de-fundo: #00162E;
+    --fundo-senha: #00244D;
+    --fundo-texto: #001E40;
+    --borda: #0075FF;
+    --roboto: 'Roboto', sans-serif;
+    --roboto-mono: 'Roboto Mono', monospace;
+}
+
+*{
+    font-weight: 400;
+}
+
+body{
+    color: var(--branco);
+    background-color: var(--cor-de-fundo);
+    font-family: var(--roboto);
+}
+
 .titulo-principal{
     font-family: var(--roboto-mono);
     font-size: 32px;
 }
 
+.titulo-secundario{
+    font-family: var(--roboto-mono);
+    font-size: 32px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap');
+
+:root{
+    --branco: white;
+    --cor-de-fundo: #00162E;
+    --fundo-senha: #00244D;
+    --fundo-texto: #001E40;
+    --borda: #0075FF;
+    --roboto: 'Roboto', sans-serif;
+    --roboto-mono: 'Roboto Mono', monospace;
+}
+
+*{
+    font-weight: 400;
+}
+
+body{
+    color: var(--branco);
+    background-color: var(--cor-de-fundo);
+    font-family: var(--roboto);
+}
+
+.titulo-principal{
+    font-family: var(--roboto-mono);
+    font-size: 32px;
+}
+
+.titulo-secundario{
 .titulo-secundario{
     font-size: 24px;
 }
@@ -91,10 +145,19 @@ body{
 }
 
 .parametro-senha__botao{
-
+    background-color: var(--cor-de-fundo);
+    color:var(--branco);
+    border: 2px solid var(--borda);
+    padding: 24px;
+    font-size: 24px;
+    cursor: pointer;
 }
 .parametro-senha__texto{
-
+border-top: 2px solid var(--borda);
+border-bottom: 2px solid var(--borda);
+padding: 24px ;
+margin: 0px;
+font-size: 24px;
 }
 
 @media screen and (min-width: 768px) {
